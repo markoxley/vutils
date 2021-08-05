@@ -9,7 +9,7 @@ import (
 	"github.com/digital-dream-labs/vector-go-sdk/pkg/vector"
 )
 
-// GeetVector returns a vector object based on the sdk_config.ini file
+// GetVector returns a vector object based on the sdk_config.ini file.
 func GetVector() (*vector.Vector, error) {
 	botToken := ""
 	botTarget := ""
